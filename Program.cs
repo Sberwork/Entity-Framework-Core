@@ -43,6 +43,8 @@ namespace HelloApp
                     user.Age = 44;
                     //обновляем объект
                     //db.Users.Update(user);
+                 //   При необходимости обновить одновременно несколько объектов, применяется метод UpdateRange():
+                 //   db.Users.UpdateRange(user1, user2);
                     db.SaveChanges();
                 }
                 // выводим данные после обновления
