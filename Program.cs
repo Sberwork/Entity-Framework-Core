@@ -63,6 +63,7 @@ namespace HelloApp
                 {
                     //удаляем объект
                     db.Users.Remove(user);
+                    //db.Users.RemoveRange(user1, user2);
                     db.SaveChanges();
                 }
                 // выводим данные после обновления
