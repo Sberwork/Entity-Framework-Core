@@ -16,6 +16,7 @@ namespace HelloApp
                 // Добавление
                 db.Users.Add(user1);
                 db.Users.Add(user2);
+                //db.Users.AddRange(user1, user2);
                 db.SaveChanges();
             }
 
