@@ -15,7 +15,7 @@ Install-Package Microsoft.EntityFrameworkCore.Design
 
 Install-Package Microsoft.Extensions.Configuration.Json
 
-Смотрим ветки v1-v4
+Смотрим ветки v2-v4
 
 
 https://en.wikipedia.org/wiki/Entity_Framework
