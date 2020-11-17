@@ -12,3 +12,7 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.EntityFrameworkCore.Tools
 
 Install-Package Microsoft.EntityFrameworkCore.Design
+
+Install-Package Microsoft.Extensions.Configuration.Json
+
+Смотрим ветки v1-v4
