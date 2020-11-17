@@ -1,96 +1,96 @@
-info: 17.11.2020 17:55:47.218 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+info: 17.11.2020 16:37:07.949 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
       Entity Framework Core 5.0.0 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
-dbug: 17.11.2020 17:55:47.297 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.025 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Opening connection to database 'helloappdb' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:47.841 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.588 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Opened connection to database 'helloappdb' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:47.849 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.595 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
       Creating DbCommand for 'ExecuteNonQuery'.
-dbug: 17.11.2020 17:55:47.855 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
-      Created DbCommand for 'ExecuteNonQuery' (5ms).
-dbug: 17.11.2020 17:55:47.865 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.599 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (3ms).
+dbug: 17.11.2020 16:37:08.604 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
       Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
       SELECT 1
-info: 17.11.2020 17:55:47.901 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
-      Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+info: 17.11.2020 16:37:08.626 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
       SELECT 1
-dbug: 17.11.2020 17:55:47.904 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.628 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Closing connection to database 'helloappdb' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:47.910 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.633 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Closed connection to database 'helloappdb' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:47.981 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.678 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Opening connection to database 'master' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:47.993 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.681 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Opened connection to database 'master' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:47.994 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.682 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
       Creating DbCommand for 'ExecuteNonQuery'.
-dbug: 17.11.2020 17:55:47.994 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.682 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
       Created DbCommand for 'ExecuteNonQuery' (0ms).
-dbug: 17.11.2020 17:55:47.994 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.682 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
       Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
       IF SERVERPROPERTY('EngineEdition') <> 5
       BEGIN
           ALTER DATABASE [helloappdb] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
       END;
-info: 17.11.2020 17:55:48.004 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
-      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+info: 17.11.2020 16:37:08.685 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
       IF SERVERPROPERTY('EngineEdition') <> 5
       BEGIN
           ALTER DATABASE [helloappdb] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
       END;
-dbug: 17.11.2020 17:55:48.004 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.685 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
       Creating DbCommand for 'ExecuteNonQuery'.
-dbug: 17.11.2020 17:55:48.004 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.685 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
       Created DbCommand for 'ExecuteNonQuery' (0ms).
-dbug: 17.11.2020 17:55:48.004 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.685 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
       Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
       DROP DATABASE [helloappdb];
-info: 17.11.2020 17:55:48.023 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
-      Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+info: 17.11.2020 16:37:08.702 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
       DROP DATABASE [helloappdb];
-dbug: 17.11.2020 17:55:48.023 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.702 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Closing connection to database 'master' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:48.023 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.702 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Closed connection to database 'master' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:48.024 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.703 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Opening connection to database 'helloappdb' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:48.034 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.712 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
       An error occurred using the connection to database 'helloappdb' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:48.038 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.714 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Opening connection to database 'master' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:48.039 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:08.715 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Opened connection to database 'master' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:48.039 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.715 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
       Creating DbCommand for 'ExecuteNonQuery'.
-dbug: 17.11.2020 17:55:48.039 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.715 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
       Created DbCommand for 'ExecuteNonQuery' (0ms).
-dbug: 17.11.2020 17:55:48.039 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:08.715 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
       Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
       CREATE DATABASE [helloappdb];
-info: 17.11.2020 17:55:48.395 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
-      Executed DbCommand (356ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+info: 17.11.2020 16:37:09.234 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (519ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
       CREATE DATABASE [helloappdb];
-dbug: 17.11.2020 17:55:48.395 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:09.235 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
       Creating DbCommand for 'ExecuteNonQuery'.
-dbug: 17.11.2020 17:55:48.395 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:09.235 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
       Created DbCommand for 'ExecuteNonQuery' (0ms).
-dbug: 17.11.2020 17:55:48.396 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+dbug: 17.11.2020 16:37:09.235 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
       Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
       IF SERVERPROPERTY('EngineEdition') <> 5
       BEGIN
           ALTER DATABASE [helloappdb] SET READ_COMMITTED_SNAPSHOT ON;
       END;
-info: 17.11.2020 17:55:48.455 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
-      Executed DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+info: 17.11.2020 16:37:09.293 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (58ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
       IF SERVERPROPERTY('EngineEdition') <> 5
       BEGIN
           ALTER DATABASE [helloappdb] SET READ_COMMITTED_SNAPSHOT ON;
       END;
-dbug: 17.11.2020 17:55:48.455 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:09.293 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Closing connection to database 'master' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:48.455 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:09.293 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Closed connection to database 'master' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:48.456 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+dbug: 17.11.2020 16:37:09.294 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Opening connection to database 'helloappdb' on server '(localdb)\mssqllocaldb'.
-dbug: 17.11.2020 17:55:48.460 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
-      Opened connection to da
+dbug: 17.11.2020 16:37:09.298 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to dat
