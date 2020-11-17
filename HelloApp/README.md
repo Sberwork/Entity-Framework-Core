@@ -3,7 +3,19 @@
 https://metanit.com/sharp/entityframeworkcore/2.12.php
 
 
+* Comment
+----------
+мы не используем ILoggerFactory и тем более в DbContext-е, так что надо разбираться, читать документацию. Так что я бы убрал весь код, который использует DI из DbContext
 
+если исправлять этот пример, то нужно в консольном приложении создать ServiceCollection . Добавить логирование с провайдером и потом как-то передать ServieProvider в новый dbContext
+
+- а что плохого в DI?
+= Как мне кажется, то сложно сразу с этого начинать. А так это основной паттерн почти в любом приложении
+
+Нужно зарегистировать контекст в созданном ServiceCollection
+
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.entityframeworkservicecollectionextensions.adddbcontext?view=efcore-5.0
+----------
 ```
 'ApplicationContext' generated a temporary value for the property 'Id.User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
 Context 'ApplicationContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
